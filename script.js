@@ -47,6 +47,10 @@ document.querySelector(".equal").addEventListener("click", () => {
     output.value = result;
 });
 
+document.querySelector(".decimal").addEventListener("click", () => {
+    output.value += ".";
+});
+
 function add(num1, num2) {
     return num1 + num2;
 }
